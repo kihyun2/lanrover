@@ -1,0 +1,95 @@
+/* 전역 설정 */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 헤더의 css */
+header{
+    width: 1100px;
+    height: 100px;
+}
+#logo{
+    width: 130px;
+    height: 70px;
+    float: left;
+    margin:10px 35px;
+}
+nav{
+    display: inline-block;
+    width: 740px;
+    height: 30px;
+    margin: 30px 30px;
+}
+nav ul{
+    /* background-color: antiquewhite; */
+    margin-top: 0px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+/* slider의 css */
+#slider{
+    width: 1100px;
+    height: 450px;
+}
+/* section의 css */
+section{
+    width: 1100px;
+    height: 280px;
+    padding: 0px 0px 0px 0px;
+}
+article{
+    display: inline-block;
+    vertical-align: top;
+    width: 340px;
+    height: 145px;
+    margin: 50px 10px;
+}
+#art1 > p{
+    margin: 0px;
+}
+#art1 > div{
+    display: flex;
+}
+#newsImg{
+    width: 170px;
+    height: 100px;
+    margin-right: 5px;
+    bottom: 0px;
+
+}
+#text-wrap{
+    font-size: 14px;
+}
+#support-wrap div{
+    display: inline-block;
+    margin-left: 19px;
+    width: 90px;
+
+}
+
+/* footer의 css */
+footer{
+    background-color: #F2F2F2;
+    width: 1100px;
+    height: 100px;
+}
+footer img{
+    width: 130px;
+    height: 70px;
+    float: left;
+    margin:10px 35px;
+}
+footer p{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: small;
+    color: #3a3a3a;
+}
